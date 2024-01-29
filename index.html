@@ -2,30 +2,114 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--React Library's-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <!---->
+
+    <!-- React Libraries below -->
+    <script src="https://unpkg.com/react@18.2.0/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script src='assets/js/React/Component/ReactDataTable.js' type='text/babel'></script>
+    <!-- End of React Libraries -->
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" class="style">
+    <!---->
+
     <h1>Adelynn Klemme</h1>
 </head>
 
+
+<!-- <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+
+            </div>
+        </div>
+    </div> -->
+
+
+
+
 <body>
-    <p>Welcome! My name is Adelynn Klemme and I am currently a student at Boise State University. I am majoring in Game,
-        Interactive Media, and Mobile Technology as well as pursuing a minor in General Mathematics. I am currently a
-        junior and most looking forward to a Web Developement carrier in the future. The purpose of my website is to have 
-        a place where I can display all of my work and projects for a portfolio.</p>
-    <hr>
-    <img src="SelfPortrait.jpg" alt="KlemmeIMG">
-    <hr>
-    <a href="https://mae-bridgeman.itch.io/amu-tombolos">Empty Space In An Atom</a>
-    <hr>
-    <a href="mailto:adyklemme@gmail.com?subject=Website Questions">adyklemme@gmail.com</a>
-    <hr>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.</p>
+    <div class="container-fluid">
+
+        <!-- Title Header -->
+        <div class="row NavBarRow">
+
+            <!-- Left Side Panel -->
+            <div class="col-md-1 NavBar_Side_Panels"></div>
+
+            <!-- Header -->
+            <div class="col-md-10 NavBar">
+                <header id="Banner">
+                    <nav id="NavBar" class="NavLinksShelf">
+                        <ul>
+                            <li><a href="SelfIntroWebsite.html">Home</a></li>
+                            <li><a href="DataCharts.html">Biography</a></li>
+                            <!-- <li><i class="fa-solid fa-kiwi-bird BirdIcon"></i></li> -->
+                            <li><a href="Discover.html">Artifacts</a></li>
+                            <li><a href="LearnMore.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <h1>Endangered Bird Species</h1>
+                </header>
+            </div>
+
+            <!-- Right Side Panel -->
+            <div class="col-md-1 header_Side_Panels"></div>
+        </div>
+
+        <!-- Top Introduction -->
+        <div class="row">
+            <div class="col-md-6">
+                <img class="img-fluid" src="SelfPortrait.jpg" alt="KlemmeIMG">
+            </div>
+            <div class="col-md-6">
+                <p>Welcome! My name is Adelynn Klemme and I am currently a student at Boise State University. I am majoring in Game,
+                    Interactive Media, and Mobile Technology as well as pursuing a minor in General Mathematics. I am currently a
+                    junior and most looking forward to a Web Developement carrier in the future. The purpose of my website is to have 
+                    a place where I can display all of my work and projects for a portfolio.</p>
+            </div>
+        </div>
+        <hr>
+        <!-- Middle Filler Info -->
+        <div class="row">
+            <div class="col-md-3">
+                <a href="https://mae-bridgeman.itch.io/amu-tombolos">Empty Space In An Atom</a>
+            </div>
+            <div class="col-md-9">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                    laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                    laborum.</p>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Footer -->
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <a href="mailto:adyklemme@gmail.com?subject=Website Questions">adyklemme@gmail.com</a>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
 
 </body>
 
