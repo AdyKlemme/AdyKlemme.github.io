@@ -24,7 +24,12 @@ Font style:
 
 
 
-
+/* Styling Name Header */
+.PortfolioName {
+    text-align: center;
+    font-family: 'Dancing Script', cursive; 
+    color: #C9E4CA;
+}
 
 
 /* Nav Bar styling */
