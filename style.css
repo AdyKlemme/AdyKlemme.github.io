@@ -11,11 +11,22 @@
 /* Website details */
 /* 
 Color palette: 
-    #C9E4CA
-    #87BBA2
-    #57939f
-    #335848
-    #364958
+    Blues:
+        #E1ECF7
+        #CAE9FF
+        #AECBEB
+        #5FA8D3
+        #1B4965 -Used this one(Headers)
+    Greens:
+        #A1CCA5 -Used this one(Background)
+        #8FB996
+        #709775
+        #415D43 -Used this one(Main Text Content)
+    Black:
+        #111D13 -Used this one(Hover and Main Body Text Headers)
+    White: 
+        #F8F9FB
+
 
 Font style: 
     Dosis w/ font-family: 'Dosis', sans-serif;
@@ -26,9 +37,11 @@ Font style:
 
 /* Styling Name Header */
 .PortfolioName {
-    text-align: center;
     font-family: 'Dancing Script', cursive; 
-    color: #C9E4CA;
+    color:#1B4965;
+}
+.fa-user {
+    color:#1B4965;
 }
 
 
@@ -60,7 +73,7 @@ nav a {
 
 nav a:hover {
     text-decoration: none;
-    color: #364958;
+    color: #111D13;
     font-size: 18px;
     font-family: 'Dosis', sans-serif;
     font-weight: bolder;
@@ -71,10 +84,6 @@ nav a:hover {
 
 .NavBarWholeTop {
     padding-top: 10px;
-}
-
-.BirdIcon {
-    color: #47493c;
 }
 
 li {
@@ -91,5 +100,5 @@ li {
 
 /* Body Div */
 .bodyDiv {
-    background-color: #57939f;
+    background-color: #A1CCA5;
 }
