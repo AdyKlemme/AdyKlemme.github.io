@@ -14,7 +14,7 @@ Color palette:
     #C9E4CA
     #87BBA2
     #57939f
-    #3B6064
+    #335848
     #364958
 
 Font style: 
@@ -83,5 +83,13 @@ li {
 }
 
 .NavBarRow {
-    color: #57939f;
+    background-color: #335848;
+}
+
+
+
+
+/* Body Div */
+.bodyDiv {
+    background-color: #57939f;
 }
