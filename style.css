@@ -38,8 +38,6 @@ Font style:
 /* Styling Name Header */
 .PortfolioName {
     font-family: 'Dancing Script', cursive;
-    max-height: 250px;
-    max-width: 250px;
     font-size: 24px;
     color: #CAE9FF;
     text-align: left;
@@ -119,4 +117,6 @@ li {
 /* Self Portrait styling */
 .KlemmeIMGContact {
     border-radius: 50%;
+    max-height: 250px;
+    max-width: 250px;
 }
