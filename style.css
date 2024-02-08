@@ -98,9 +98,10 @@ li {
     background-color: #335848;
 }
 
-#NavBarRow {
+.HotBar {
     position: fixed;
     top: 0px;
+    overflow: hidden;
 }
 
 
