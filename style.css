@@ -66,12 +66,13 @@ nav ul {
     background-color: none;
     padding-top: 10px;
     padding-bottom: 10px;
+    justify-content: center;
 
 }
 
 nav li {
-    display: inline;
-    padding: 20px;
+    justify-content: center;
+    padding: 5px;
 }
 
 .nava {
