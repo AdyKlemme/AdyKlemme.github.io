@@ -148,3 +148,9 @@ p.fillingText {
     display: flex;
     justify-content: center;
 }
+
+/* Footer */
+.CopyRightNote {
+    justify-content: right;
+    text-align: right;
+}
