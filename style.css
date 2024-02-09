@@ -57,6 +57,7 @@ nav {
 }
 
 nav ul {
+    display: inline-block;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -69,7 +70,6 @@ nav ul {
 }
 
 .nava {
-    display: inline-block;
     margin: 0 30px;         /* Distance between links*/
     text-decoration: none;
     font-family: 'Dosis', sans-serif;
