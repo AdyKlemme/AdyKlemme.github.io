@@ -64,12 +64,14 @@ nav ul {
     background-color: none;
     padding-top: 10px;
     padding-bottom: 10px;
+    float:none;
 
 }
 
 nav li {
     display: inline-block;
     padding: 5px;
+    float:none;
 }
 
 .nava {
@@ -129,6 +131,8 @@ p.homeText {
 
 
 /* Contact Page styling */
-FontIcon {
-    color:#111D13
+.FontIcon {
+    color:#111D13;
+    padding-right: 10px;
+    padding-left: 10px;
 }
