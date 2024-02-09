@@ -53,6 +53,7 @@ Font style:
 nav {
     top: 0;
     text-align: center;
+    align-content: center;
     width: 110%;
     background-color: #335848;
 }
