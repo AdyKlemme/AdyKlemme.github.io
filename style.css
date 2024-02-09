@@ -71,7 +71,7 @@ nav ul {
 }
 
 nav li {
-    justify-content: center;
+    display: inline;
     padding: 5px;
 }
 
