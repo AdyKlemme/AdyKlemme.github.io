@@ -58,7 +58,7 @@ nav {
 }
 
 .nava {
-    /* display: inline-block; */
+    display: inline-block;
     margin: 0 30px;         /* Distance between links*/
     text-align: center;
     text-decoration: none;
