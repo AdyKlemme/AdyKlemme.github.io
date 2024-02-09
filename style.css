@@ -108,6 +108,7 @@ nav a:hover {
 }
 .KlemmeIMG {
     border-radius: 25px;
+    padding: 10px;
 }
 
 
@@ -127,4 +128,7 @@ p.homeText {
 }
 
 
-
+/* Contact Page styling */
+FontIcon {
+    color:#111D13
+}
