@@ -54,8 +54,6 @@ nav {
     top: 0;
     width: 100%;
     background-color: #335848;
-    justify-content: center;
-    display: inline-block;
 }
 
 nav ul {
@@ -66,7 +64,6 @@ nav ul {
     background-color: none;
     padding-top: 10px;
     padding-bottom: 10px;
-    justify-content: center;
 
 }
 
@@ -123,6 +120,7 @@ p.homeText {
     text-align: justify;
     font-size: 18px;
     line-height: 150%;
+    text-indent: 30px;
 }
 
 
