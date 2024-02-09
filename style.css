@@ -135,13 +135,14 @@ p.fillingText {
 /* Contact Page styling */
 .FontIcon {
     color:#111D13;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .iconDiv {
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .icon-container {
