@@ -97,3 +97,9 @@ nav a:hover {
 hr.HomeName {
     border: 1px solid #1B4965;
   }
+
+p.homeText {
+    font-family: 'Dosis', sans-serif;
+    font-size: 12px;
+    line-height: 125%;
+}
