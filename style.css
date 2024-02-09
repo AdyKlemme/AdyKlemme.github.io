@@ -57,7 +57,7 @@ nav {
     background-color: #335848;
 }
 
-nav a {
+.nava {
     /* display: inline-block; */
     margin: 0 30px;         /* Distance between links*/
     text-align: center;
