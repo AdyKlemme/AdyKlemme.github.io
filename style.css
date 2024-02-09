@@ -53,6 +53,7 @@ Font style:
 nav {
     top: 0;
     width: 100%;
+    display: inline;
     background-color: #335848;
 }
 
@@ -92,6 +93,10 @@ nav a:hover {
 /* Body Div */
 .bodyDiv {
     background-color: #A1CCA5;
+}
+
+.mainDiv {
+    padding: 0px;
 }
 
 
