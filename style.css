@@ -149,8 +149,19 @@ p.fillingText {
     justify-content: center;
 }
 
+.ContactTextDiv {
+    margin: 10px;
+    padding: 20px;
+}
+
 /* Footer */
 .CopyRightNote {
     justify-content: right;
     text-align: right;
 }
+
+.ContactIconNote {
+    justify-content: left;
+    text-align: left;
+}
+
