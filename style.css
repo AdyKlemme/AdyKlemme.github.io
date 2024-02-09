@@ -53,7 +53,6 @@ Font style:
 nav {
     top: 0;
     width: 100%;
-    display: inline;
     background-color: #335848;
 }
 
@@ -71,7 +70,6 @@ nav ul {
 }
 
 nav li {
-    display: inline;
     padding: 5px;
 }
 
