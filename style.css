@@ -52,17 +52,25 @@ Font style:
 
 nav {
     top: 0;
-    text-align: center;
-    align-content: center;
     width: 110%;
     background-color: #335848;
 }
 
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+    background-color: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
 .nava {
     display: inline-block;
-    align-content: center;
     margin: 0 30px;         /* Distance between links*/
-    text-align: center;
     text-decoration: none;
     font-family: 'Dosis', sans-serif;
     background-color: #335848;
