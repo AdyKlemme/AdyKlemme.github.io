@@ -121,7 +121,7 @@ hr.HomeName {
     border: 1px solid #1B4965;
   }
 
-p.homeText {
+p.fillingText {
     font-family: 'Dosis', sans-serif;
     text-align: justify;
     font-size: 18px;
@@ -135,4 +135,13 @@ p.homeText {
     color:#111D13;
     padding-right: 10px;
     padding-left: 10px;
+}
+
+.iconDiv {
+    text-align: center;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
 }
