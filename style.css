@@ -93,10 +93,11 @@ nav a:hover {
 /* Body Div */
 .bodyDiv {
     background-color: #A1CCA5;
+    padding: none;
 }
 
 .mainDiv {
-    padding: 0px;
+    padding: none;
 }
 
 
