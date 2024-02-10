@@ -41,6 +41,7 @@ Font style:
     font-size: 44px;
     color: #415D43;
     text-align: center;
+    padding-top: 10px;
 }
 
 .fa-user {
@@ -166,7 +167,7 @@ p.fillingText {
 }
 
 /* Footer */
-.CopyRightNote {
+.CopyRightText {
     display: flex;
     justify-content: right; 
     align-items: center; 
@@ -190,7 +191,7 @@ p.fillingText {
 }
 
 
-.FooterName {
+.FooterNameText {
     display: flex;
     justify-content: center; 
     align-items: center; 
