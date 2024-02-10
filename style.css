@@ -54,6 +54,7 @@ nav {
     top: 0;
     width: 100%;
     background-color: #335848;
+    justify-content: right;
 }
 
 nav ul {
@@ -64,14 +65,12 @@ nav ul {
     background-color: none;
     padding-top: 10px;
     padding-bottom: 10px;
-    float:none;
 
 }
 
 nav li {
     display: inline-block;
     padding: 5px;
-    float:none;
 }
 
 .nava {
@@ -94,6 +93,8 @@ nav a:hover {
 .bodyDiv {
     background-color: #A1CCA5;
     padding: 0px;
+    padding-right: 0px;
+    margin: 0px;
 }
 
 .mainDiv {
@@ -130,6 +131,10 @@ p.fillingText {
     text-indent: 30px;
 }
 
+.SkillsHeader {
+    text-align: center;
+}
+
 
 /* Contact Page styling */
 .FontIcon {
@@ -140,8 +145,8 @@ p.fillingText {
 
 .FontIconFooter {
     color:#111D13;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 .iconDiv {
@@ -181,5 +186,9 @@ p.fillingText {
     background-color: #335848;
     font-size: 18px;
     color:#111D13
-  }
+}
+
+.FooterName {
+    text-align: center;
+}
 
