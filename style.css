@@ -56,7 +56,12 @@ nav {
     background-color: #335848;
 }
 
-nav ul {
+.HotBar {
+    display: flex;
+    justify-content: center; /* horizontally center */
+}
+
+.HotBar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -64,13 +69,15 @@ nav ul {
     background-color: none;
     padding-top: 10px;
     padding-bottom: 10px;
-    justify-content: right;
-
 }
 
-nav li {
-    display: inline-block;
-    padding: 5px;
+.HotBar ul li {
+    display: inline;
+    margin-right: 20px; /* adjust spacing between links as needed */
+}
+
+.HotBar ul li:last-child {
+    margin-right: 0; /* remove margin from last link to avoid extra spacing */
 }
 
 .nava {
@@ -183,9 +190,14 @@ p.fillingText {
     position: fixed;
     left: 0;
     bottom: 0;
+    width: 100%;
     background-color: #335848;
     font-size: 12px;
     color:#111D13
+}
+
+.navbarfooter {
+    width: 100%;
 }
 
 
