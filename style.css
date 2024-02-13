@@ -33,6 +33,11 @@ Font style:
     Dancing Script w/ font-family: 'Dancing Script', cursive; 
 */
 
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
 
 /* Styling Name Header */
 .PortfolioName {
