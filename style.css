@@ -33,10 +33,6 @@ Font style:
     Dancing Script w/ font-family: 'Dancing Script', cursive; 
 */
 
-* {
-    padding: 0px;
-    margin: 0px;
-}
 
 
 /* Styling Name Header */
@@ -171,7 +167,9 @@ p.fillingText {
     display: flex;
     justify-content: right; 
     align-items: center; 
-    padding-right: 5px;
+    padding-right: 10px;
+    font-size: 12px;
+    margin-bottom: 0px;
 }
 
 .ContactIconNote {
@@ -196,5 +194,6 @@ p.fillingText {
     align-items: center; 
     height: 100%; 
     font-size: 12px;
+    margin-bottom: 0px;
 }
 
