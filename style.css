@@ -169,6 +169,10 @@ p.fillingText {
     margin-bottom: 60px;
 }
 
+.topPageHeader {
+    margin-top: 30px;
+}
+
 /* Footer */
 .CopyRightText {
     display: flex;
