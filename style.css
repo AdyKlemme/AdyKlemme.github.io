@@ -162,6 +162,13 @@ p.fillingText {
     padding: 20px;
 }
 
+.ProjectSpacing {
+    margin-bottom: 20px;
+}
+.ProjectMidSpacing {
+    margin-bottom: 10px;
+}
+
 /* Footer */
 .CopyRightText {
     display: flex;
