@@ -226,14 +226,12 @@ p.fillingText {
 .ArtWorkIMGs {
     border-radius: 25px;
     margin: 10px;
-    container: flex;
     filter: grayscale(100%);
     background-color: 255 255 255 .80;
 }
 .ArtWorkIMGs:hover {
     border-radius: 25px;
     margin: 10px;
-    container: flex;
     filter: grayscale(0%);
 }
 
