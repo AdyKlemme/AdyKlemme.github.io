@@ -177,62 +177,60 @@ p.fillingText {
     margin-bottom: 0px;
 }
 
-.ArtWorkColumn1 {
-    background-image: url('PortfolioIMGs/2DArt1.png');
-}
-.ArtWorkColumn2 {
-    background-image: url('PortfolioIMGs/2DArt2.png');
-}
-.ArtWorkColumn3 {
-    background-image: url('PortfolioIMGs/2DArt3.png');
-}
-.ArtWorkColumn4 {
-    background-image: url('PortfolioIMGs/Designing1.png');
-}
-.ArtWorkColumn5 {
-    background-image: url('PortfolioIMGs/Designing2.png');
-}
-.ArtWorkColumn6 {
-    background-image: url('PortfolioIMGs/Designing3.png');
-}
-.ArtWorkColumn7 {
-    background-image: url('PortfolioIMGs/Modeling1.png');
-}
-.ArtWorkColumn8 {
-    background-image: url('PortfolioIMGs/Modeling2.png');
-}
-.ArtWorkColumn9 {
-    background-image: url('PortfolioIMGs/Modeling3.png');
-}
-.ArtWorkColumn10 {
-    background-image: url('PortfolioIMGs/UVLayout1.png');
-}
-.ArtWorkColumn11 {
-    background-image: url('PortfolioIMGs/UVLayout2.png');
-}
-.ArtWorkColumn12 {
-    background-image: url('PortfolioIMGs/UVLayout3.png');
-}
-.ArtWorkColumn13 {
-    background-image: url('PortfolioIMGs/Final1.png');
-}
-.ArtWorkColumn14 {
-    background-image: url('PortfolioIMGs/Final2.png');
-}
-.ArtWorkColumn15 {
-    background-image: url('PortfolioIMGs/Final3.png');
+
+.ArtWorkColumn {
+
 }
 
-.ArtWorkIMGs {
-    border-radius: 25px;
-    margin: 10px;
-    filter: grayscale(100%);
+.artworkImage-box {
+
 }
-.ArtWorkIMGs:hover {
-    border-radius: 25px;
-    margin: 10px;
-    filter: grayscale(0%);
+
+.ArtWorkColumn {
+    aspect-ratio: 1/1;
+    border-radius: 8px;
+    position: relative;
 }
+
+.ArtWorkColumn .artworkImage-box .ArtWorkIMGS{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s ease-in-out;
+}
+
+.ArtWorkColumn::after {
+    content: "";
+    position: absolute;
+    inset:0;
+    border: 2px solid white;
+    border-radius: inherit;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+}
+
+.ArtWorkColumn:hover .ArtWorkIMGS{
+    filter:
+        grayscale(1)
+        brightness(0.4);
+}
+
+.ArtWorkColumn:hover::after {
+    opacity: 1;
+    inset: 20px;
+}
+
+.ArtWorkColumn:hover .artworkcontent h5 {
+    scale: 1;
+    opacity: 1;
+}
+
+.ArtWorkColumn:hover .artworkcontent .artworktext {
+    opacity: 1;
+    transform: translateY()
+    
+}
+
 
 
 /* Footer */
