@@ -177,6 +177,67 @@ p.fillingText {
     margin-bottom: 0px;
 }
 
+.ArtworkColumn1 {
+    background-image: url('PortfolioIMGs/2DArt1.png');
+}
+.ArtworkColumn2 {
+    background-image: url('PortfolioIMGs/2DArt2.png');
+}
+.ArtworkColumn3 {
+    background-image: url('PortfolioIMGs/2DArt3.png');
+}
+.ArtworkColumn4 {
+    background-image: url('PortfolioIMGs/Designing1.png');
+}
+.ArtworkColumn5 {
+    background-image: url('PortfolioIMGs/Designing2.png');
+}
+.ArtworkColumn6 {
+    background-image: url('PortfolioIMGs/Designing3.png');
+}
+.ArtworkColumn7 {
+    background-image: url('PortfolioIMGs/Modeling1.png');
+}
+.ArtworkColumn8 {
+    background-image: url('PortfolioIMGs/Modeling2.png');
+}
+.ArtworkColumn9 {
+    background-image: url('PortfolioIMGs/Modeling3.png');
+}
+.ArtworkColumn10 {
+    background-image: url('PortfolioIMGs/UVLayout1.png');
+}
+.ArtworkColumn11 {
+    background-image: url('PortfolioIMGs/UVLayout2.png');
+}
+.ArtworkColumn12 {
+    background-image: url('PortfolioIMGs/UVLayout3.png');
+}
+.ArtworkColumn13 {
+    background-image: url('PortfolioIMGs/Final1.png');
+}
+.ArtworkColumn14 {
+    background-image: url('PortfolioIMGs/Final2.png');
+}
+.ArtworkColumn15 {
+    background-image: url('PortfolioIMGs/Final3.png');
+}
+
+.ArtWorkIMGs {
+    border-radius: 25px;
+    margin: 10px;
+    container: flex;
+    filter: grayscale(100%);
+    background-color: 255 255 255 .80;
+}
+.ArtWorkIMGs:hover {
+    border-radius: 25px;
+    margin: 10px;
+    container: flex;
+    filter: grayscale(0%);
+}
+
+
 /* Footer */
 .CopyRightText {
     display: flex;
