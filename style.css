@@ -227,7 +227,7 @@ p.fillingText {
 
 .ArtWorkColumn:hover .artworkcontent .artworktext {
     opacity: 1;
-    transform: translateY()
+    transform: translateY(0);
     
 }
 
