@@ -227,7 +227,6 @@ p.fillingText {
     border-radius: 25px;
     margin: 10px;
     filter: grayscale(100%);
-    background-color: 255 255 255 .80;
 }
 .ArtWorkIMGs:hover {
     border-radius: 25px;
