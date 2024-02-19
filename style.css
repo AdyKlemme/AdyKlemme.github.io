@@ -192,6 +192,18 @@ p.fillingText {
     position: relative;
 }
 
+.artworkImage-box {
+    position: relative;
+    z-index: 1;
+}
+
+.artworkcontent {
+    position: absolute;
+    bottom: 100%; /* Adjust this value as needed */
+    left: 0;
+    z-index: 2;
+}
+
 .ArtWorkColumn .artworkImage-box .ArtWorkIMGS{
     width: 100%;
     height: 100%;
