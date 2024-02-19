@@ -74,7 +74,8 @@ nav li {
 }
 
 .nava {
-    margin: 0 30px;         /* Distance between links*/
+    margin: 0 30px;
+    /* Distance between links*/
     text-decoration: none;
     font-family: 'Dosis', sans-serif;
     background-color: #335848;
@@ -107,6 +108,7 @@ nav a:hover {
     margin: 10px;
     padding: 20px;
 }
+
 .KlemmeIMG {
     border-radius: 25px;
     padding: 10px;
@@ -118,7 +120,7 @@ nav a:hover {
 /* Home Page Styling */
 hr.HomeName {
     border: 1px solid #1B4965;
-  }
+}
 
 p.fillingText {
     font-family: 'Dosis', sans-serif;
@@ -135,13 +137,13 @@ p.fillingText {
 
 /* Contact Page styling */
 .FontIcon {
-    color:#111D13;
+    color: #111D13;
     padding-right: 20px;
     padding-left: 20px;
 }
 
 .FontIconFooter {
-    color:#111D13;
+    color: #111D13;
     padding-right: 5px;
     padding-left: 5px;
 }
@@ -165,6 +167,7 @@ p.fillingText {
 .ProjectSpacing {
     margin-bottom: 120px;
 }
+
 .ProjectMidSpacing {
     margin-bottom: 60px;
 }
@@ -178,13 +181,9 @@ p.fillingText {
 }
 
 
-.ArtWorkColumn {
+.ArtWorkColumn {}
 
-}
-
-.artworkImage-box {
-
-}
+.artworkImage-box {}
 
 .ArtWorkColumn {
     aspect-ratio: 1 / 0.7;
@@ -197,14 +196,39 @@ p.fillingText {
     z-index: 1;
 } */
 
-.artworkcontent {
+/* .artworkcontent {
     position: absolute;
-    bottom: 100%; /* Adjust this value as needed */
+    bottom: 100%;  Adjust this value as needed 
     left: 0;
     z-index: 2;
+    */
+
+.artworkImage-box {
+    position: relative;
 }
 
-.ArtWorkColumn .artworkImage-box .ArtWorkIMGS{
+.artworkcontent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.artworkImage-box:hover .artworkcontent {
+    opacity: 1;
+}
+
+
+
+.ArtWorkColumn .artworkImage-box .ArtWorkIMGS {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -214,17 +238,16 @@ p.fillingText {
 .ArtWorkColumn::after {
     content: "";
     position: absolute;
-    inset:0;
+    inset: 0;
     border: 2px solid white;
     border-radius: inherit;
     opacity: 0;
     transition: 0.4s ease-in-out;
 }
 
-.ArtWorkColumn:hover .ArtWorkIMGS{
+.ArtWorkColumn:hover .ArtWorkIMGS {
     filter:
-        grayscale(1)
-        brightness(0.4);
+        grayscale(1) brightness(0.4);
 }
 
 .ArtWorkColumn:hover::after {
@@ -240,7 +263,7 @@ p.fillingText {
 .ArtWorkColumn:hover .artworkcontent .artworktext {
     opacity: 1;
     transform: translateY(0);
-    
+
 }
 
 
@@ -248,8 +271,8 @@ p.fillingText {
 /* Footer */
 .CopyRightText {
     display: flex;
-    justify-content: right; 
-    align-items: center; 
+    justify-content: right;
+    align-items: center;
     padding-right: 10px;
     font-size: 12px;
     margin-bottom: 0px;
@@ -267,16 +290,15 @@ p.fillingText {
     bottom: 0;
     background-color: #335848;
     font-size: 12px;
-    color:#111D13
+    color: #111D13
 }
 
 
 .FooterNameText {
     display: flex;
-    justify-content: center; 
-    align-items: center; 
-    height: 100%; 
+    justify-content: center;
+    align-items: center;
+    height: 100%;
     font-size: 12px;
     margin-bottom: 0px;
 }
-
