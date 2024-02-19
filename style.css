@@ -255,7 +255,7 @@ p.fillingText {
     inset: 20px;
 }
 
-.ArtWorkColumn:hover .artworkcontent h5 {
+.ArtWorkColumn:hover .artworkImage-box .artworkcontent h5 {
     scale: 1;
     opacity: 1;
 }
