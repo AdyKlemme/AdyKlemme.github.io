@@ -172,6 +172,12 @@ p.fillingText {
     padding: 20px;
 }
 
+.ContactMainDiv {
+    height: 100vh;
+}
+
+/* Project Page Styling */
+
 .ProjectSpacing {
     margin-bottom: 60px;
 }
