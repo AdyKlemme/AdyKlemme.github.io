@@ -22,6 +22,8 @@ Color palette:
         #8FB996
         #709775
         #415D43 -Used this one(Main Text Content)
+
+        #335848 rgba(51, 88, 72, 0.8) - Nav background and projects background
     Black:
         #111D13 -Used this one(Hover and Main Body Text Headers)
     White: 
@@ -170,6 +172,13 @@ p.fillingText {
 
 .ProjectMidSpacing {
     margin-bottom: 60px;
+}
+
+.ProjectContainers {
+    background-color: rgba(51, 88, 72, 0.8);
+    border-radius: 8px;
+    padding:10px;
+    border: 1px solid #335848;
 }
 
 .topPageHeader {
