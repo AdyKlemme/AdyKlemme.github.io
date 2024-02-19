@@ -181,27 +181,12 @@ p.fillingText {
 }
 
 
-.ArtWorkColumn {}
-
-.artworkImage-box {}
-
+/* Hover over Image affect */
 .ArtWorkColumn {
     aspect-ratio: 1 / 0.7;
     border-radius: 8px;
     position: relative;
 }
-
-/* .artworkImage-box {
-    position: relative;
-    z-index: 1;
-} */
-
-/* .artworkcontent {
-    position: absolute;
-    bottom: 100%;  Adjust this value as needed 
-    left: 0;
-    z-index: 2;
-    */
 
 .artworkImage-box {
     position: relative;
@@ -252,7 +237,7 @@ p.fillingText {
 
 .ArtWorkColumn:hover .ArtWorkIMGS {
     filter:
-        grayscale(1) brightness(0.4);
+        grayscale(1) brightness(0.6);
 }
 
 .ArtWorkColumn:hover::after {
