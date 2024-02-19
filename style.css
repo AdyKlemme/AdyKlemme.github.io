@@ -192,10 +192,10 @@ p.fillingText {
     position: relative;
 }
 
-.artworkImage-box {
+/* .artworkImage-box {
     position: relative;
     z-index: 1;
-}
+} */
 
 .artworkcontent {
     position: absolute;
