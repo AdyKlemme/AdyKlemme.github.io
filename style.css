@@ -213,6 +213,7 @@ p.fillingText {
     position: relative;
     margin-top: 10px;
     margin-bottom: 10px;
+    padding: 20px;
 }
 
 .artworkImage-box {
@@ -267,7 +268,7 @@ p.fillingText {
 
 .ArtWorkColumn:hover::after {
     opacity: 1;
-    inset: 20px;
+    inset: 40px;
 }
 
 .ArtWorkColumn:hover .artworkImage-box .artworkcontent h5 {
@@ -298,6 +299,10 @@ p.fillingText {
 
 
 /* Footer */
+
+.PaddingBottomRow {
+    padding-bottom: 30px;
+}
 .CopyRightText {
     display: flex;
     justify-content: right;
