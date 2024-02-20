@@ -146,6 +146,17 @@ p.fillingText {
     margin-bottom: 0px;
 }
 
+.SkillsIcons {
+    filter:grayscale(100%);
+}
+
+.SkillsIconsContainer {
+    display: flex;
+    justify-content: center; /* aligns items horizontally in the center */
+    align-items: center; /* aligns items vertically in the center */
+    flex-wrap: wrap; 
+}
+
 
 /* Contact Page styling */
 .FontIcon {
