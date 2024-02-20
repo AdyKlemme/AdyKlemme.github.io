@@ -152,6 +152,8 @@ p.fillingText {
     max-height: 75px;
     width: 100%;
     height: auto;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .SkillsIconsContainer {
