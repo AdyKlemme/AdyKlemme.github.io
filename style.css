@@ -148,8 +148,8 @@ p.fillingText {
 
 .SkillsIcons {
     filter:grayscale(100%);
-    max-width: 75px;
-    max-height: 75px;
+    max-width: 50px;
+    max-height: 50px;
     width: 100%;
     height: auto;
     padding-left: 10px;
