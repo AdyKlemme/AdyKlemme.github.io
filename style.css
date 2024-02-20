@@ -37,6 +37,11 @@ Font style:
 
 
 
+/* @media (max-width: 1300px) {}
+@media (max-width: 769.9px) {}*/
+
+
+
 /* Styling Name Header */
 .PortfolioName {
     font-family: 'Dancing Script', cursive;
