@@ -152,8 +152,8 @@ p.fillingText {
     max-height: 75px;
     width: 100%;
     height: auto;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .SkillsIconsContainer {
@@ -322,7 +322,7 @@ p.fillingText {
 /* Footer */
 
 .PaddingBottomRow {
-    padding-bottom: 30px;
+    padding-bottom: 45px;
 }
 .CopyRightText {
     display: flex;
