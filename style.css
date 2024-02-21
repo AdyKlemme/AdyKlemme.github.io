@@ -168,6 +168,7 @@ Font style:
         font-family: 'Dosis', sans-serif;
         margin: 5px;
         width: 80%;
+        overflow-x: scroll;
     
     }
     .ArtWorkColumn::after {
