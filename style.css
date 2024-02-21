@@ -155,14 +155,14 @@ Font style:
 
     }
     .ArtworkIMGHeadersFavorite {
-        font-size: 32px;
+        font-size: 26px;
         color: #F8F9FB;
         text-align: center;
         font-family: 'Dosis', sans-serif;
     }
     
     .ArtworkIMGTextFavorite {
-        font-size: 20px;
+        font-size: 18px;
         color: #F8F9FB;
         text-align: center;
         font-family: 'Dosis', sans-serif;
