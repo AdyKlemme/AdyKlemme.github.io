@@ -30,15 +30,157 @@ Color palette:
         #F8F9FB
 
 
+    Used Colors:
+        #335848;
+        #CAE9FF;
+        #415D43;
+        #A1CCA5;
+        #111D13;
+        #1B4965;
+        #F8F9FB;  
+        white;
+        grayscale(1) brightness(0.2);
+        rgba(51, 88, 72, 0.5);
+
+
 Font style: 
     Dosis w/ font-family: 'Dosis', sans-serif;
     Dancing Script w/ font-family: 'Dancing Script', cursive; 
 */
 
 
+@media (max-width: 1600px) {
+    .ArtworkIMGHeaders {
+        font-size: 16px;
+        color: #F8F9FB;
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+    }
+    
+    .ArtworkIMGText {
+        font-size: 12px;
+        color: #F8F9FB;
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+        margin: 5px;
+        width: 80%;
+    
+    }
+    .ArtworkIMGHeadersFavorite {
+        font-size: 36px;
+        color: #F8F9FB;
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+    }
+    
+    .ArtworkIMGTextFavorite {
+        font-size: 30px;
+        color: #F8F9FB;
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+        margin: 5px;
+        width: 80%;
+    
+    }
+    .ArtWorkColumn::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border: 2px solid white;
+        border-radius: inherit;
+        opacity: 0;
+        transition: 0.4s ease-in-out;
+    }
+}
 
-/* @media (max-width: 1300px) {}
-@media (max-width: 769.9px) {}*/
+@media (max-width: 1150px) {
+    .ArtworkIMGHeaders {
+        font-size: 10px;
+        color: #F8F9FB;
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+    }
+
+    .ArtworkIMGText {
+        font-size: 6px;
+        color: #F8F9FB;
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+        margin: 5px;
+        width: 80%;
+
+    }
+    .ArtworkIMGHeadersFavorite {
+        font-size: 28px;
+        color: #F8F9FB;
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+    }
+    
+    .ArtworkIMGTextFavorite {
+        font-size: 22px;
+        color: #F8F9FB;
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+        margin: 5px;
+        width: 80%;
+    
+    }
+    .ArtWorkColumn::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border: none;
+        border-radius: inherit;
+        opacity: 0;
+        transition: 0.4s ease-in-out;
+    }
+}
+
+@media (max-width: 769.9px) {
+    .ArtworkIMGHeaders {
+        font-size: 32px;
+        color: #F8F9FB;
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+    }
+
+    .ArtworkIMGText {
+        font-size: 20px;
+        color: #F8F9FB;
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+        margin: 5px;
+        width: 80%;
+
+    }
+    .ArtworkIMGHeadersFavorite {
+        font-size: 32px;
+        color: #F8F9FB;
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+    }
+    
+    .ArtworkIMGTextFavorite {
+        font-size: 20px;
+        color: #F8F9FB;
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+        margin: 5px;
+        width: 80%;
+    
+    }
+    .ArtWorkColumn::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border: 2px solid white;
+        border-radius: inherit;
+        opacity: 0;
+        transition: 0.4s ease-in-out;
+    }
+
+}
 
 
 
@@ -152,7 +294,7 @@ p.fillingText {
 }
 
 .SkillsIcons {
-    filter:grayscale(100%);
+    filter: grayscale(100%);
     max-width: 65px;
     max-height: 65px;
     width: 100%;
@@ -163,9 +305,11 @@ p.fillingText {
 
 .SkillsIconsContainer {
     display: flex;
-    justify-content: center; /* aligns items horizontally in the center */
-    align-items: center; /* aligns items vertically in the center */
-    flex-wrap: wrap; 
+    justify-content: center;
+    /* aligns items horizontally in the center */
+    align-items: center;
+    /* aligns items vertically in the center */
+    flex-wrap: wrap;
 }
 
 
@@ -215,7 +359,7 @@ p.fillingText {
 .ProjectContainers {
     background-color: rgba(51, 88, 72, 0.5);
     border-radius: 8px;
-    padding:20px;
+    padding: 20px;
     border: 1px solid #335848;
 }
 
@@ -239,7 +383,8 @@ p.fillingText {
     position: relative;
     margin-top: 10px;
     margin-bottom: 10px;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .artworkImage-box {
@@ -277,15 +422,6 @@ p.fillingText {
     transition: 0.5s ease-in-out;
 }
 
-.ArtWorkColumn::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border: 2px solid white;
-    border-radius: inherit;
-    opacity: 0;
-    transition: 0.4s ease-in-out;
-}
 
 .ArtWorkColumn:hover .ArtWorkIMGS {
     filter:
@@ -307,21 +443,10 @@ p.fillingText {
     transform: translateY(0);
 }
 
-.ArtworkIMGHeaders {
-    font-size: 16px;
-    color: #F8F9FB;
-    text-align: center;
-    font-family: 'Dosis', sans-serif;
-}
 
-.ArtworkIMGText {
-    font-size: 12px;
-    color: #F8F9FB;
-    text-align: center;
-    font-family: 'Dosis', sans-serif;
-    margin: 5px;
-    width: 80%;
-
+.ArtWorkIMGS {
+    margin-top: 10px;
+    border-radius: 8px;;
 }
 
 
@@ -331,6 +456,7 @@ p.fillingText {
 .PaddingBottomRow {
     padding-bottom: 45px;
 }
+
 .CopyRightText {
     display: flex;
     justify-content: right;
