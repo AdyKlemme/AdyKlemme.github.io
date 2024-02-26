@@ -259,7 +259,7 @@ nav a:hover {
 /* Self Portrait styling */
 .KlemmeIMGContact {
     border-radius: 50%;
-    margin: 10px;
+    margin: 0px;
     padding: 20px;
 }
 
@@ -339,7 +339,7 @@ p.fillingText {
 }
 
 .ContactTextDiv {
-    margin: 10px;
+    margin: 0px;
     padding: 20px;
 }
 
