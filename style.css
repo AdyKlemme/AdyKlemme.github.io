@@ -424,12 +424,12 @@ p.fillingText {
 }
 
 
-.ArtWorkColumn:hover .ArtWorkIMGS {
+.artworkImage-box:hover .ArtWorkIMGS {
     filter:
         grayscale(1) brightness(0.2);
 }
 
-.ArtWorkColumn:hover::after {
+.artworkImage-box:hover::after {
     opacity: 1;
     inset: 40px;
 }
