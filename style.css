@@ -424,12 +424,12 @@ p.fillingText {
 }
 
 
-.artworkImage-box:hover .ArtWorkIMGS {
+.ArtWorkColumn:hover .ArtWorkIMGS {
     filter:
         grayscale(1) brightness(0.2);
 }
 
-.artworkImage-box:hover::after {
+.ArtWorkColumn:hover::after {
     opacity: 1;
     inset: 40px;
 }
@@ -444,7 +444,9 @@ p.fillingText {
     transform: translateY(0);
 }
 
+
 .ArtWorkIMGS {
+    margin-top: 10px;
     border-radius: 8px;;
 }
 
