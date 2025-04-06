@@ -434,21 +434,12 @@ p.fillingText {
     inset: 40px;
 }
 
-/* .ArtWorkColumn:hover .artworkImage-box .artworkcontent h5 {
+.ArtWorkColumn:hover .artworkImage-box .artworkcontent h5 {
     scale: 1;
     opacity: 1;
 }
 
 .ArtWorkColumn:hover .artworkcontent .artworktext {
-    opacity: 1;
-    transform: translateY(0);
-} */
-
-.artworkImage-box:hover .artworkcontent h5 {
-    scale: 1;
-    opacity: 1;
-}
-.artworkImage-box:hover .artworkcontent .artworktext {
     opacity: 1;
     transform: translateY(0);
 }
