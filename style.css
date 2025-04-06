@@ -444,13 +444,16 @@ p.fillingText {
     transform: translateY(0);
 } */
 
+.artworkImage-box:hover .artworkcontent h5 {
+    scale: 1;
+    opacity: 1;
+}
 .artworkImage-box:hover .artworkcontent .artworktext {
     opacity: 1;
     transform: translateY(0);
 }
 
 .ArtWorkIMGS {
-    margin-top: 10px;
     border-radius: 8px;;
 }
 
