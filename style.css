@@ -434,7 +434,7 @@ p.fillingText {
     inset: 40px;
 }
 
-.ArtWorkColumn:hover .artworkImage-box .artworkcontent h5 {
+/* .ArtWorkColumn:hover .artworkImage-box .artworkcontent h5 {
     scale: 1;
     opacity: 1;
 }
@@ -442,18 +442,12 @@ p.fillingText {
 .ArtWorkColumn:hover .artworkcontent .artworktext {
     opacity: 1;
     transform: translateY(0);
-}
+} */
 
-.artworkcontent:hover .artworktext {
+.artworkImage-box:hover .artworkcontent .artworktext {
     opacity: 1;
     transform: translateY(0);
 }
-
-.artworktext:hover {
-    opacity: 1;
-    transform: translateY(0);
-}
-
 
 .ArtWorkIMGS {
     margin-top: 10px;
